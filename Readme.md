@@ -1,1 +1,1 @@
-This is simple password generator made in java.
+This is a simple password generator made in java.
