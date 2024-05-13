@@ -5,7 +5,7 @@ public class PasswordGenerator
     static String Generate(int len)
     {
         Random r = new Random();
-        String Characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        String Characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-~`{}[]:\"|;\'";
         String password = "";
 
         for(int i=0;i<len;i++)
